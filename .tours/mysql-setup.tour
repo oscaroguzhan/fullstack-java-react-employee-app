@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "mysql-setup",
+  "steps": [
+    {
+      "file": "server/employee-management-api/src/main/resources/application.properties",
+      "description": "define url with database name",
+      "line": 1
+    },
+    {
+      "file": "server/employee-management-api/src/main/resources/application.properties",
+      "description": "define username and password",
+      "line": 2
+    },
+    {
+      "file": "server/employee-management-api/src/main/resources/application.properties",
+      "description": "driver class name",
+      "line": 4
+    },
+    {
+      "file": "server/employee-management-api/src/main/resources/application.properties",
+      "description": "jpa-hibernate.ddl-auto to update the table if it is necessary",
+      "line": 5
+    }
+  ]
+}
